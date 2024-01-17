@@ -7,7 +7,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.example.catalogoperros.coroutines.ImageCoroutine
 import com.example.catalogoperros.db.BreedDatabase
 import com.example.catalogoperros.db.BreedRecord
-import com.example.catalogoperros.viewpager.ViewpagerAdapter
+import com.example.catalogoperros.adapters.viewpager.ViewpagerAdapter
 
 class BreedActivity : AppCompatActivity() {
 

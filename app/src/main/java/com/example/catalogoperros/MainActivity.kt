@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.catalogoperros.coroutines.DatabaseCoroutine
 import com.example.catalogoperros.db.BreedDatabase
-import com.example.catalogoperros.recyclerView.BreedRecyclerViewAdapter
+import com.example.catalogoperros.adapters.recyclerView.BreedRecyclerViewAdapter
 
 class MainActivity : AppCompatActivity() {
 

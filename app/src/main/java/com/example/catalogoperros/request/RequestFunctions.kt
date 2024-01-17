@@ -97,12 +97,10 @@ class RequestFunctions {
 
         fun getRandomImage(breed: BreedRecord): String {
 
-            val urlString: String
-
-            if (breed.subBreed == null) {
-                urlString = "${breed.breedName}/images/random"
+            val urlString = if (breed.subBreed == null) {
+                "${breed.breedName}/images/random"
             } else {
-                urlString = "${breed.breedName}/${breed.subBreed}/images/random"
+                "${breed.breedName}/${breed.subBreed}/images/random"
             }
 
             val url = URL(rootURL + urlString)

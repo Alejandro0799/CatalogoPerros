@@ -1,4 +1,4 @@
-package com.example.catalogoperros.recyclerView
+package com.example.catalogoperros.adapters.recyclerView
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

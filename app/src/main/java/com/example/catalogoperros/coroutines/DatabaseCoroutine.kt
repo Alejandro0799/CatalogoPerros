@@ -4,7 +4,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.catalogoperros.MainActivity
 import com.example.catalogoperros.db.BreedDatabase
 import com.example.catalogoperros.db.BreedRecord
-import com.example.catalogoperros.recyclerView.BreedRecyclerViewAdapter
+import com.example.catalogoperros.adapters.recyclerView.BreedRecyclerViewAdapter
 import com.example.catalogoperros.request.RequestFunctions
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

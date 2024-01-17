@@ -1,4 +1,4 @@
-package com.example.catalogoperros.viewpager
+package com.example.catalogoperros.adapters.viewpager
 
 import android.content.Context
 import android.view.View

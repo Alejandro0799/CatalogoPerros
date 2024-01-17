@@ -3,7 +3,7 @@ package com.example.catalogoperros.coroutines
 import androidx.viewpager2.widget.ViewPager2
 import com.example.catalogoperros.db.BreedDatabase
 import com.example.catalogoperros.db.BreedRecord
-import com.example.catalogoperros.viewpager.ViewpagerAdapter
+import com.example.catalogoperros.adapters.viewpager.ViewpagerAdapter
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
